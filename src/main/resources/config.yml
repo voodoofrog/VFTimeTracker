@@ -1,0 +1,67 @@
+DayNames:
+  - Monday
+  - Tuesday
+  - Wednesday
+  - Thursday
+  - Friday
+  - Saturday
+  - Sunday
+  - Monseve
+MonthNames:
+  - January
+  - February
+  - March
+  - April
+  - May
+  - June
+  - July
+  - August
+  - September
+  - October
+  - November
+  - December
+MoonPhaseNames:
+  - full
+  - waning gibbous
+  - last quarter
+  - waning crescent
+  - new
+  - waxing crescent
+  - first quarter
+  - waxing gibbous
+SeasonsEnabled: false
+Seasons:
+  world:
+    Winter:
+      StartDate: 01/12
+      EndDate: 32/02
+      WheatGrowthMultiplier: 0.2
+      MelonGrowthMultiplier: 0.0
+      SugarCaneGrowthMultiplier: 0.2
+      PumpkinGrowthMultiplier: 0.6
+      Colour: blue
+    Spring:
+      StartDate: 01/03
+      EndDate: 32/05
+      WheatGrowthMultiplier: 0.4
+      MelonGrowthMultiplier: 0.3
+      SugarCaneGrowthMultiplier: 0.4
+      PumpkinGrowthMultiplier: 0.3
+      Colour: green
+    Summer:
+      StartDate: 01/06
+      EndDate: 32/08
+      WheatGrowthMultiplier: 0.6
+      MelonGrowthMultiplier: 0.6
+      SugarCaneGrowthMultiplier: 0.6
+      PumpkinGrowthMultiplier: 0.0
+      Colour: yellow
+    Autumn:
+      StartDate: 01/09
+      EndDate: 32/11
+      WheatGrowthMultiplier: 0.4
+      MelonGrowthMultiplier: 0.3
+      SugarCaneGrowthMultiplier: 0.4
+      PumpkinGrowthMultiplier: 0.3
+      Colour: dark_red
+      

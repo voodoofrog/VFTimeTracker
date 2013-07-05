@@ -1,0 +1,19 @@
+name: VFTimeTracker
+main: uk.co.forgottendream.vftimetracker.VFTimeTracker
+version: 0.8
+load: postworld
+
+commands:
+   date:
+      description: Use this command to get the date of the world you're in.
+      usage: /<command>
+      permission: vftimetracker.date
+
+permissions:
+    vftimetracker.*:
+        description: Gives access to all VFTimeTracker commands
+        children:
+            vftimetracker.date: true
+    vftimetracker.date:
+        description: Lets a player get the date of the world
+        default: true
