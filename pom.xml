@@ -36,7 +36,19 @@
 		<dependency>
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
-			<version>1.3.1-R2.0</version>
+			<version>1.6.1-R0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>fdream-nexus</id>
+			<name>Plugin Releases</name>
+			<url>http://fdream.no-ip.org:8080/nexus-2.5.1/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>fdream-nexus</id>
+			<name>Plugin Snapshots</name>
+			<url>http://fdream.no-ip.org:8080/nexus-2.5.1/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
